@@ -14,11 +14,9 @@ const Navbar = () => {
     return `rgba(${(Math.random() * 255).toFixed()}, ${(Math.random()*255).toFixed()}, ${(Math.random()*255).toFixed()}, 0.5)`
 }
 
-console.log(color())
-
   return (
     <nav className='h-full shrink-0 w-[18%]'>
-      <div className="p-5 side-nav h-full w-[100%] bg-zinc-700 flex items-center justify-start flex-col pt-[20%]">
+      <div className="p-5 side-nav h-full w-[100%] bg-zinc-700 flex items-center justify-start flex-col pt-[35%]">
         <button className='bg-blue-400 px-4 py-3 text-white rounded-lg font-regular'>Add New Product</button>
 
         <hr className='my-[8%] w-[80%]' />
